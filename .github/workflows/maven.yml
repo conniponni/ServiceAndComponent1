@@ -20,6 +20,9 @@ jobs:
           java-version: 17
           cache: maven
 
+      - name: Build project
+        run: mvn clean compile
+
       - name: Install Playwright browsers
         run: mvn exec:java -Dexec.mainClass=com.microsoft.playwright.CLI -Dexec.args="install"
 
