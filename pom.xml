@@ -3,12 +3,10 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <!-- Dessa ska ligga här -->
     <groupId>se.iths.connie</groupId>
     <artifactId>atm</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
-    <!-- Spring Boot parent -->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>

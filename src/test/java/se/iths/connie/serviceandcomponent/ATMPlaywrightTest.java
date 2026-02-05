@@ -27,13 +27,9 @@ public class ATMPlaywrightTest {
                                 AtmApp.class));
 
         serverThread.setDaemon(true);
-
         serverThread.start();
-
         Thread.sleep(5000);
-
         playwright = Playwright.create();
-
         browser =
                 playwright.chromium().launch(
                         new BrowserType
